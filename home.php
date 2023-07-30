@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>shortenerlink - Home</title>
+    <title>Home</title>
     <style>
         body {
             font-family: Arial, sans-serif;
