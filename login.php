@@ -7,7 +7,7 @@ if(isset($_POST['Login'])){
     $query="SELECT * FROM username WHERE Username='$username' AND Password='$password';";
     $gas=mysqli_query($connect, $query);
     if($gas->num_rows>0){
-        header('Location:home.php');
+        header('Location:Main.php');
     }
         else{
             echo'
